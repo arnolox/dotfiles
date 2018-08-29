@@ -77,7 +77,7 @@ endif
 " autocmd BufWritePre * :%s/\s\+$//e " strip trailing whitespace on save
 " autocmd BufLeave * silent! wall    " save on lost focus
 
-set diffopt += vertical         " Use vertical splits for diffs
+set diffopt+=vertical         " Use vertical splits for diffs
 set wildmenu                    " show possible completions on command line
 set splitbelow                  " split panes on the bottom
 set splitright                  " split panes to the right
@@ -170,7 +170,7 @@ map <leader>p :split<CR>
 "------------------------------------------------------------------------------
 " AIRLINE
 "------------------------------------------------------------------------------
-let g:airline_theme = 'dark-minimal' " set vim-airline theme
+let g:airline_theme = 'dark_minimal' " set vim-airline theme
 let g:airline_section_c = '' " Empty the bufferline section for narrow splits
 let g:airline_extensions = [] " only load these extensions
 let g:airline_powerline_fonts = 1
